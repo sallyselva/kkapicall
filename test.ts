@@ -19,5 +19,5 @@ let mySprite = sprites.create(img`
 mySprite.say("press A to browse to makecode.com")
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     // mySprite.say("Pressed A")
-    web.open("https://www.kirtilals.com/")
+    web.open("http://localhost:50972/api/ECommReflection?playername=FromGame_" + info.player1.id() + "&score=200")
 })// Add your code here
